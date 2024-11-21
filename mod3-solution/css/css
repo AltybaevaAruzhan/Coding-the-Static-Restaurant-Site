@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3; /* Серый фон */
+}
+
+/* Стили для header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Стиль секции главной страницы */
+#main {
+    background-image: url('https://i.pinimg.com/736x/6f/9e/4d/6f9e4d869fdad0eccff4781ee4f89f04.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Стили для меню */
+#menu {
+    padding: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 20px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px; /* Сделаем все изображения одинакового размера */
+    object-fit: cover; /* Чтобы изображение не искажалось */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Стили для секции о нас */
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#reviews {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review p {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.review strong {
+    font-weight: bold;
+}
+
+
+
+/* Стиль для страницы контактов */
+#contacts {
+    background-image: url('https://avatars.mds.yandex.net/i?id=ef2a8292bee5ded5fba663478d4d65dd_l-4080622-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Single column layout */
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 1.1em;
+}
